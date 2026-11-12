@@ -70,7 +70,7 @@ function obtenerTiempo() {
                     console.log("OJO");
 
 
-                    temperatura.textContent="Temperatura: " +datosTiempo.current.temperature_2m; + " Cº";
+                    temperatura.textContent="Temperatura: " +datosTiempo.current.temperature_2m + " Cº";
                     humedad.textContent="Humedad: "+datosTiempo.current.relative_humidity_2m + " %"; 
                     VelocidadViento.textContent="Velocidad viento: "+datosTiempo.current.wind_speed_10m + " km/h";
                     let arrayString =  datosTiempo.current.time.split("T");
